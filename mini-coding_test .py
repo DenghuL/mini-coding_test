@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 def my_input(target)->list :
-    '''判断输入是否是0-9'''
+    '''判断输入是否是0-99'''
     try:
         str1=input('input("q" is quit): ')
         if str1=='q':return False
